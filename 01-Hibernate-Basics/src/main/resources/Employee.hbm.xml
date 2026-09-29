@@ -1,0 +1,9 @@
+<hibernate-mapping>
+<class name="org.jsp.Demo.Employee" table="emp">
+<id name="id" column="eid">
+<generator class="assigned"/>
+</id>
+<property name="name" column="ename"/>
+<property name="salary" column="sal"/>
+</class>
+</hibernate-mapping>
